@@ -1,4 +1,4 @@
-import Profile from '../../component/Profile/Profile'
+import Profile from '../Profile/Profile'
 import userData from "../../data/userData/username";
 function App() {
   return (
