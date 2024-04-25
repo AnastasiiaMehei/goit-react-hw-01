@@ -1,8 +1,8 @@
 // import css from '../Profile/Profile.module.css'
-export default function Profile ({name, tag, location,image, stats}){
+export default function Profile ({username, tag, location,image, stats}){
     return (<div>
        <div> <img src={image}/>
-        <p>Name: {name}</p>
+        <p>Name: {username}</p>
         <p>Tag: {tag}</p>
         <p>Location: {location}</p></div>
         <ul>
