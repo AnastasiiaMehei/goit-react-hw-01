@@ -1,5 +1,5 @@
-import Profile from '../Profile/Profile';   
-import userData from '../../data/userData/userData';   
+import Profile from "../Profile/Profile";
+import userData from "../../data/userData/userData";
 function App() {
   return (
     <>
