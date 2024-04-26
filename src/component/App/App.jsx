@@ -4,7 +4,7 @@ import userData from "../../data/userData.json";
 import FriendList from '../FriendList/FriendList'
 import friends from '../../data/friends.json'
 
-const App = () => {
+function App () {
     return (
       <>
         <Profile
@@ -17,5 +17,5 @@ const App = () => {
         <FriendList friends={friends}/>
       </>
     );
-  };
+  }
 export default App
