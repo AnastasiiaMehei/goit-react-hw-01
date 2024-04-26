@@ -1,25 +1,26 @@
-import css from './TransactionHistory.module.css'
-const TransactionHistory = (transactions) => {
-    return(
+import css from './TransactionHistory.module.css';
+
+const TransactionHistory = ({ transactions }) => {
+    return (
         <table className={css.table}>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
-  </thead>
+            <thead className={css.thead}>
+                <tr>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Currency</th>
+                </tr>
+            </thead>
+            <tbody>
+                {transactions.map((transaction, id) => (
+                    <tr className={css.tr} key={id}>
+                        <td>{transaction.type}</td>
+                        <td>{transaction.amount}</td>
+                        <td>{transaction.currency}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    );
+};
 
-  <tbody>
-    {transactions.map((transaction, id) => (<tr key={id}>
-      <td>{transaction.type}</td>
-      <td>{transaction.amount}</td>
-      <td>{transaction.currency}</td>
-    </tr>))}
-  </tbody>
-</table>
-    )
-}
-
-
-export default TransactionHistory
+export default TransactionHistory;

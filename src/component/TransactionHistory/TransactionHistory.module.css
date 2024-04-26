@@ -1,0 +1,14 @@
+.table {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.thead {
+  background-color: black;
+  color: white;
+  font-weight: 200;
+}
+
+.tr:nth-child(even) {
+  background-color: silver;
+}
