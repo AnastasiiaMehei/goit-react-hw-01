@@ -9,7 +9,6 @@
   width: 100px;
   border-radius: 50%;
   background-color: black;
-  margin: 20px;
 }
 .username {
   font-size: 20px;
@@ -26,12 +25,23 @@
 .listItem {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  border: 1px solid grey;
+}
+.span {
+  font-weight: 400;
+  color: black;
+}
+.spanProp {
+  font-weight: 700;
 }
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 300px;
+  margin: 10px;
 }
 .userInfo {
   font-weight: 500;

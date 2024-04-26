@@ -7,16 +7,16 @@ const Profile = (props) => {
          <p className={css.userInfo}>{props.location}</p></div>
          <ul className={css.list}>
      <li className={css.listItem}>
-       <span>Followers</span>
-       <span>{props.stats.followers}</span>
+       <span className={css.span}>Followers</span>
+       <span className={css.spanProp}>{props.stats.followers}</span>
      </li>
      <li className={css.listItem}>
-       <span>Views</span>
-       <span>{props.stats.views}</span>
+       <span className={css.span}>Views</span>
+       <span className={css.spanProp}>{props.stats.views}</span>
      </li>
      <li className={css.listItem}>
-       <span>Likes</span>
-       <span>{props.stats.likes}</span>
+       <span className={css.span}>Likes</span>
+       <span className={css.spanProp}>{props.stats.likes}</span>
      </li>
    </ul>
  
