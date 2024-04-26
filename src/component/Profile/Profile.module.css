@@ -28,11 +28,10 @@
   align-items: center;
   width: calc(100% / 3);
   border: 1px solid grey;
-}
-.span {
   font-weight: 400;
   color: black;
 }
+
 .spanProp {
   font-weight: 700;
 }
