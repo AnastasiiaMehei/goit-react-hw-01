@@ -1,5 +1,5 @@
 // import css from '../Profile/Profile.module.css'
-export const Profile = (props) => {
+export default const Profile = (props) => {
     return (<div>
         <div> <img src={props.image}/>
          <p>Name: {props.username}</p>
