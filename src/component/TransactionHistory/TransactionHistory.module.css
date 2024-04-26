@@ -1,5 +1,5 @@
 .table {
-  margin: 0 auto;
+  margin-left: 20px;
   width: 100%;
   border-collapse: collapse;
 }
@@ -11,4 +11,10 @@
 
 .tr:nth-child(even) {
   background-color: silver;
+}
+.td {
+  border: 1px black solid;
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
 }
