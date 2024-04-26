@@ -6,15 +6,15 @@ const Profile = (props) => {
          <p className={css.userInfo}>@{props.tag}</p>
          <p className={css.userInfo}>{props.location}</p></div>
          <ul className={css.list}>
-     <li>
+     <li className={css.listItem}>
        <span>Followers</span>
        <span>{props.stats.followers}</span>
      </li>
-     <li>
+     <li className={css.listItem}>
        <span>Views</span>
        <span>{props.stats.views}</span>
      </li>
-     <li>
+     <li className={css.listItem}>
        <span>Likes</span>
        <span>{props.stats.likes}</span>
      </li>
