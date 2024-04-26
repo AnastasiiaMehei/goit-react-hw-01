@@ -1,5 +1,5 @@
 import css from '../Profile/Profile.module.css'
-export const Profile = (props) => {
+const Profile = (props) => {
     return (<div>
         <div className={css.profileContainer}> <img src={props.image}/>
          <p>Name: {props.username}</p>
@@ -22,3 +22,4 @@ export const Profile = (props) => {
  
      </div>);
 }
+export default Profile

@@ -1,5 +1,5 @@
 // import clsx from "clsx";
-import {Profile} from "../Profile/Profile";
+import Profile from "../Profile/Profile";
 import userData from "../../data/userData.json";
 import FriendList from '../FriendList/FriendList'
 import friends from '../../data/friends.json'
